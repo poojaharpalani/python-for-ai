@@ -1,0 +1,60 @@
+{
+  "knowledge_base": [
+    {
+      "id": 1,
+      "category": "MCP Basics",
+      "question": "What is MCP?",
+      "answer": "MCP stands for Model Context Protocol. It is an open protocol that allows AI applications to connect with external tools, data sources, and services.",
+      "keywords": ["MCP", "protocol", "AI", "integration"]
+    },
+    {
+      "id": 2,
+      "category": "MCP Basics",
+      "question": "What is an MCP server?",
+      "answer": "An MCP server exposes capabilities such as tools, resources, and prompts to an MCP client. It allows AI applications to interact with external functionality.",
+      "keywords": ["server", "MCP server", "tools", "resources"]
+    },
+    {
+      "id": 3,
+      "category": "MCP Basics",
+      "question": "What is an MCP client?",
+      "answer": "An MCP client is the component inside an AI application that establishes a connection with an MCP server and communicates with it using the MCP protocol.",
+      "keywords": ["client", "connection", "communication"]
+    },
+    {
+      "id": 4,
+      "category": "MCP Tools",
+      "question": "What are tools in MCP?",
+      "answer": "Tools are functions exposed by an MCP server that an AI application can discover and invoke to perform specific operations.",
+      "keywords": ["tools", "functions", "execution"]
+    },
+    {
+      "id": 5,
+      "category": "MCP Resources",
+      "question": "What are resources in MCP?",
+      "answer": "Resources are data or contextual information exposed by an MCP server that clients can retrieve and use.",
+      "keywords": ["resources", "data", "context"]
+    },
+    {
+      "id": 6,
+      "category": "MCP Transport",
+      "question": "What is STDIO transport?",
+      "answer": "STDIO is a communication mechanism where an MCP client communicates with a locally running server through standard input and standard output.",
+      "keywords": ["stdio", "transport", "local communication"]
+    },
+    {
+      "id": 7,
+      "category": "MCP Transport",
+      "question": "What is SSE transport?",
+      "answer": "SSE stands for Server-Sent Events. It is an HTTP-based mechanism that allows a server to send event streams to a client. It was used in earlier MCP transport implementations.",
+      "keywords": ["SSE", "HTTP", "transport", "events"]
+    },
+    {
+      "id": 8,
+      "category": "MCP Inspector",
+      "question": "What is MCP Inspector?",
+      "answer": "MCP Inspector is a developer tool used to test, inspect, and debug MCP servers. It allows developers to view and interact with server capabilities.",
+      "keywords": ["inspector", "debugging", "testing"]
+    }
+  ]
+}
